@@ -3,8 +3,8 @@ function theBeatlesPlay(musicians, instruments){
   var allbeatles = [];
   
   for (var i = 0; i < musicians.length; i++) {
-    allbeatles.push(`${musicians[i]} plays ${instruments[i]}`);
-  }
+    allbeatles.push(muscians[i] + " plays + " instruments[i]);
+  } 
   return allbeatles;
 }
 
